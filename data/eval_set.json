@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {"fact": "I'm vegetarian and I never eat eggs either.",
+     "memory": "User is vegetarian and does not eat eggs.",
+     "question": "What dietary restrictions do I have?", "expect": ["vegetarian"]},
+    {"fact": "My daughter Meera turns six next month.",
+     "memory": "User has a daughter named Meera who turns six next month.",
+     "question": "What is my daughter's name?", "expect": ["Meera"]},
+    {"fact": "I work as a mechanical design engineer at a company in Pune.",
+     "memory": "User works as a mechanical design engineer in Pune.",
+     "question": "Which city do I work in?", "expect": ["Pune"]},
+    {"fact": "I'm training for the Mumbai half marathon in January.",
+     "memory": "User is training for the Mumbai half marathon in January.",
+     "question": "What race am I preparing for?", "expect": ["half marathon", "Mumbai"]},
+    {"fact": "I drink my coffee black, with no sugar at all.",
+     "memory": "User drinks coffee black with no sugar.",
+     "question": "How do I take my coffee?", "expect": ["black"]},
+    {"fact": "My laptop is a Lenovo ThinkPad that runs Ubuntu.",
+     "memory": "User's laptop is a Lenovo ThinkPad running Ubuntu.",
+     "question": "Which operating system does my computer use?", "expect": ["Ubuntu"]},
+    {"fact": "I'm allergic to peanuts, even a little causes hives.",
+     "memory": "User is allergic to peanuts and gets hives from even a little.",
+     "question": "Is there any food I must avoid because of an allergy?", "expect": ["peanut"]},
+    {"fact": "My sister Anjali lives in Toronto with her family.",
+     "memory": "User's sister Anjali lives in Toronto.",
+     "question": "Where does my sister live?", "expect": ["Toronto"]},
+    {"fact": "I prefer reading sci-fi novels, especially Isaac Asimov.",
+     "memory": "User prefers sci-fi novels, especially by Isaac Asimov.",
+     "question": "Which author do I like most?", "expect": ["Asimov"]},
+    {"fact": "I'm learning Rust on weekends to build command-line tools.",
+     "memory": "User is learning Rust on weekends to build command-line tools.",
+     "question": "Which programming language am I learning?", "expect": ["Rust"]}
+  ],
+  "distractor_memories": [
+    "User's favourite colour is green.",
+    "User commutes by metro on weekdays.",
+    "User plans to renovate the kitchen next year.",
+    "User watches cricket matches on weekends.",
+    "User's phone is an Android device.",
+    "User prefers morning meetings over afternoon ones.",
+    "User has a standing desk at home.",
+    "User follows a weekly budget for groceries."
+  ],
+  "chatter": [
+    "What is the capital of Australia?",
+    "Can you explain what a hash map is in two sentences?",
+    "Thanks, that was helpful and clear.",
+    "How many days are there in a leap year?",
+    "Give me a one-line definition of machine learning."
+  ],
+  "filler": [
+    "Explain what a hash map is in three sentences.",
+    "Give me four tips for writing clean Python functions.",
+    "What is the difference between a list and a tuple in Python?",
+    "Describe how a binary search works step by step.",
+    "Why do people use virtual environments in Python?",
+    "Explain what an API rate limit is and why it exists.",
+    "What are three good habits for code reviews?",
+    "Briefly explain what recursion is with an example."
+  ]
+}

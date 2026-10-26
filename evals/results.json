@@ -1,0 +1,160 @@
+{
+  "retrieval": {
+    "hash": {
+      "recall@1": 0.6,
+      "recall@3": 0.8,
+      "mrr": 0.7033333333333334,
+      "ranks": [
+        2,
+        1,
+        1,
+        3,
+        1,
+        5,
+        1,
+        1,
+        null,
+        1
+      ]
+    },
+    "fastembed": {
+      "recall@1": 0.9,
+      "recall@3": 1.0,
+      "mrr": 0.95,
+      "ranks": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "e2e": {
+    "facts_extracted": 11,
+    "facts_expected": 10,
+    "with_memory": {
+      "accuracy": 1.0,
+      "detail": [
+        {
+          "question": "What dietary restrictions do I have?",
+          "ok": true,
+          "reply": "You have the following dietary restrictions:\n\n- **Vegetarian** \u2013 you don\u2019t eat meat or fish.  \n- **Egg\u2011free** \u2013 you avoi"
+        },
+        {
+          "question": "What is my daughter's name?",
+          "ok": true,
+          "reply": "Your daughter\u2019s name is **Meera**."
+        },
+        {
+          "question": "Which city do I work in?",
+          "ok": true,
+          "reply": "You work in Pune."
+        },
+        {
+          "question": "What race am I preparing for?",
+          "ok": true,
+          "reply": "You\u2019re training for the **Mumbai Half Marathon** in January."
+        },
+        {
+          "question": "How do I take my coffee?",
+          "ok": true,
+          "reply": "You keep it simple\u2014just black, no sugar (and no milk or cream). Enjoy the pure coffee flavor!"
+        },
+        {
+          "question": "Which operating system does my computer use?",
+          "ok": true,
+          "reply": "Your Lenovo ThinkPad is running **Ubuntu**, which is a Linux\u2011based operating system."
+        },
+        {
+          "question": "Is there any food I must avoid because of an allergy?",
+          "ok": true,
+          "reply": "Yes\u2014your allergy to peanuts means you need to steer clear of any food that contains peanuts or peanut\u2011derived ingredient"
+        },
+        {
+          "question": "Where does my sister live?",
+          "ok": true,
+          "reply": "Your sister Anjali lives in Toronto with her family."
+        },
+        {
+          "question": "Which author do I like most?",
+          "ok": true,
+          "reply": "Based on what you\u2019ve shared, you seem to favor Isaac\u202fAsimov the most."
+        },
+        {
+          "question": "Which programming language am I learning?",
+          "ok": true,
+          "reply": "You\u2019re learning **Rust** on the weekends to build command\u2011line tools."
+        }
+      ]
+    },
+    "without_memory": {
+      "accuracy": 0.1,
+      "detail": [
+        {
+          "question": "What dietary restrictions do I have?",
+          "ok": false,
+          "reply": "I\u2019m not aware of any dietary restrictions you have. If you\u2019d like to let me know, I\u2019ll keep that in mind for future conv"
+        },
+        {
+          "question": "What is my daughter's name?",
+          "ok": false,
+          "reply": "I\u2019m sorry, but I don\u2019t have that information."
+        },
+        {
+          "question": "Which city do I work in?",
+          "ok": false,
+          "reply": "I\u2019m not sure\u2014could you tell me which city you\u2019re working in?"
+        },
+        {
+          "question": "What race am I preparing for?",
+          "ok": false,
+          "reply": "I\u2019m not sure\u2014could you let me know which race you\u2019re getting ready for?"
+        },
+        {
+          "question": "How do I take my coffee?",
+          "ok": true,
+          "reply": "It sounds like you\u2019re looking for some guidance on coffee\u2014whether it\u2019s about ordering, brewing, or just how you like to "
+        },
+        {
+          "question": "Which operating system does my computer use?",
+          "ok": false,
+          "reply": "I\u2019m not sure\u2014could you let me know what computer you\u2019re using? For example, is it a Windows PC, a Mac, a Linux machine, "
+        },
+        {
+          "question": "Is there any food I must avoid because of an allergy?",
+          "ok": false,
+          "reply": "I\u2019m not aware of any allergies you\u2019ve mentioned before, so I don\u2019t have a list of foods to flag for you. If you have a k"
+        },
+        {
+          "question": "Where does my sister live?",
+          "ok": false,
+          "reply": "I\u2019m sorry, but I don\u2019t have any information about where your sister lives. If you\u2019d like to share more details, I\u2019ll do "
+        },
+        {
+          "question": "Which author do I like most?",
+          "ok": false,
+          "reply": "I\u2019m not sure\u2014could you let me know which authors you enjoy the most? That way I can give you a better answer."
+        },
+        {
+          "question": "Which programming language am I learning?",
+          "ok": false,
+          "reply": "I\u2019m not sure\u2014could you let me know which programming language you\u2019re studying?"
+        }
+      ]
+    }
+  },
+  "compression": {
+    "compressions": 7,
+    "peak_buffer_tokens": 1726,
+    "final_buffer_tokens": 503,
+    "budget": 250,
+    "detail_survived": true,
+    "answer": "Your train to Mysuru departs at **6:40\u202fam** from **platform\u202f3**."
+  }
+}
