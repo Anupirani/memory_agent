@@ -86,7 +86,7 @@ With a 250-token buffer budget, the buffer was compressed 7 times (peak 1,726 to
 ## How to run
 
 ```powershell
-git clone https://github.com/Anupirani/memory-agent.git
+git clone https://github.com/Anupirani/memory_agent.git
 cd memory-agent
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
